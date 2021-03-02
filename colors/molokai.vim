@@ -3,6 +3,10 @@
 " Author: Tomas Restrepo <tomas@winterdom.com>
 " https://github.com/tomasr/molokai
 "
+" Modded by datho7561 in 2021
+" https://github.com/datho7561/molokai
+" monokai-datho7561 branch
+"
 " Note: Based on the Monokai theme for TextMate
 " by Wimer Hazenberg and its darker variant
 " by Hamish Stuart Macpherson
@@ -19,13 +23,6 @@ if version > 580
     endif
 endif
 let g:colors_name="molokai"
-
-if exists("g:molokai_original")
-    let s:molokai_original = g:molokai_original
-else
-    let s:molokai_original = 0
-endif
-
 
 hi Boolean         guifg=#AE81FF
 hi Character       guifg=#E6DB74
@@ -109,27 +106,15 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
-if s:molokai_original == 1
-   hi Normal          guifg=#F8F8F2 guibg=#272822
-   hi Comment         guifg=#75715E
-   hi CursorLine                    guibg=#3E3D32
-   hi CursorLineNr    guifg=#FC9867               gui=none
-   hi CursorColumn                  guibg=#3E3D32
-   hi ColorColumn                   guibg=#3B3A32
-   hi LineNr          guifg=#BCBCBC guibg=#3B3A32
-   hi NonText         guifg=#75715E
-   hi SpecialKey      guifg=#75715E
-else
-   hi Normal          guifg=#F8F8F2 guibg=#1E1F1C
-   hi Comment         guifg=#88846F
-   hi CursorLine                    guibg=#272822
-   hi CursorLineNr    guifg=#FC9867               gui=none
-   hi CursorColumn                  guibg=#272822
-   hi ColorColumn                   guibg=#272822
-   hi LineNr          guifg=#90908A guibg=#272822
-   hi NonText         guifg=#465457
-   hi SpecialKey      guifg=#465457
-end
+hi Normal          guifg=#F8F8F2 guibg=#1E1F1C
+hi Comment         guifg=#88846F
+hi CursorLine                    guibg=#272822
+hi CursorLineNr    guifg=#FC9867               gui=none
+hi CursorColumn                  guibg=#272822
+hi ColorColumn                   guibg=#272822
+hi LineNr          guifg=#90908A guibg=#272822
+hi NonText         guifg=#465457
+hi SpecialKey      guifg=#465457
 
 "
 " Support for 256-color terminal
