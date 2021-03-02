@@ -104,7 +104,7 @@ hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
 hi WildMenu        guifg=#66D9EF guibg=#000000
 
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
-hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
+hi TabLine         guibg=#1B1D1E guifg=#272822 gui=none
 
 hi Normal          guifg=#F8F8F2 guibg=#1E1F1C
 hi Comment         guifg=#88846F
