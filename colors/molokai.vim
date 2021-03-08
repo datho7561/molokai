@@ -62,8 +62,6 @@ hi ModeMsg         guifg=#E6DB74
 hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#F92672
 
-" {}
-
 " complete menu
 hi Pmenu           guifg=#66D9EF guibg=#000000
 hi PmenuSel                      guibg=#808080
@@ -105,8 +103,9 @@ hi Visual                        guibg=#403D3D
 hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
 hi WildMenu        guifg=#66D9EF guibg=#000000
 
-hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
-hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
+hi TabLine         guibg=#272822 guifg=#88846F gui=none
+hi TabLineSel      guibg=#1E1F1C guifg=#CECCC0
+hi TabLineFill     guifg=#272822 guibg=#272822
 
 hi Normal          guifg=#F8F8F2 guibg=#1E1F1C
 hi Comment         guifg=#88846F
