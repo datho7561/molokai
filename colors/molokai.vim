@@ -73,17 +73,22 @@ hi PreProc         guifg=#A9DC76
 hi Question        guifg=#66D9EF
 hi Repeat          guifg=#F92672               gui=bold
 hi Search          guifg=#000000 guibg=#FFE792
+
 " marks
 hi SignColumn      guifg=#A9DC76 guibg=#272822
 hi SpecialChar     guifg=#F92672               gui=bold
 hi SpecialComment  guifg=#7E8E91               gui=bold
 hi Special         guifg=#66D9EF guibg=bg      gui=italic
+
+" Many terminals don't yet support coloured undercurl,
+" so use cterm to set up background highlight
 if has("spell")
-    hi SpellBad    guisp=#FF0000 gui=undercurl
-    hi SpellCap    guisp=#7070F0 gui=undercurl
+    hi SpellBad    ctermbg=1 ctermfg=0 guisp=#FF0000 gui=undercurl
+    hi SpellCap    ctermfg=0 guisp=#7070F0 gui=undercurl
     hi SpellLocal  guisp=#70F0F0 gui=undercurl
     hi SpellRare   guisp=#FFFFFF gui=undercurl
 endif
+
 hi Statement       guifg=#F92672               gui=bold
 hi StatusLine      guifg=#455354 guibg=fg
 hi StatusLineNC    guifg=#808080 guibg=#080808
@@ -103,6 +108,7 @@ hi Visual                        guibg=#403D3D
 hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
 hi WildMenu        guifg=#66D9EF guibg=#000000
 
+" tabline
 hi TabLine         guibg=#272822 guifg=#88846F gui=none
 hi TabLineSel      guibg=#1E1F1C guifg=#CECCC0
 hi TabLineFill     guifg=#272822 guibg=#272822
