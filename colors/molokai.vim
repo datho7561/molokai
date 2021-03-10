@@ -109,7 +109,7 @@ hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
 hi WildMenu        guifg=#66D9EF guibg=#000000
 
 " tabline
-hi TabLine         guibg=#272822 guifg=#88846F gui=none
+hi TabLine         guibg=#333333 guifg=#88846F gui=none
 hi TabLineSel      guibg=#1E1F1C guifg=#CECCC0
 hi TabLineFill     guifg=#272822 guibg=#272822
 
