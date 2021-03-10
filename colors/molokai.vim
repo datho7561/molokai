@@ -115,8 +115,8 @@ hi TabLineFill     guifg=#272822 guibg=#272822
 
 hi Normal          guifg=#F8F8F2 guibg=#1E1F1C
 hi Comment         guifg=#88846F
-hi CursorLine                    guibg=#272822
-hi CursorLineNr    guifg=#FC9867               gui=none
+hi CursorLine                    guibg=#333333 cterm=none term=none
+hi CursorLineNr    guifg=#EAE9E1 guibg=#272822 gui=none cterm=none term=none
 hi CursorColumn                  guibg=#272822
 hi ColorColumn                   guibg=#272822
 hi LineNr          guifg=#88846F guibg=#272822
