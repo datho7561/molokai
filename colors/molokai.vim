@@ -113,13 +113,17 @@ hi TabLine         guibg=#333333 guifg=#88846F gui=none
 hi TabLineSel      guibg=#1E1F1C guifg=#CECCC0
 hi TabLineFill     guifg=#272822 guibg=#272822
 
+" cursorline
+hi CursorLine                    guibg=#333333 cterm=none term=none
+hi CursorColumn                  guibg=#333333
+
+" line number
+hi LineNr          guifg=#88846F guibg=#272822
+hi CursorLineNr    guifg=#EAE9E1 guibg=#272822 gui=none cterm=none term=none
+
 hi Normal          guifg=#F8F8F2 guibg=#1E1F1C
 hi Comment         guifg=#88846F
-hi CursorLine                    guibg=#333333 cterm=none term=none
-hi CursorLineNr    guifg=#EAE9E1 guibg=#272822 gui=none cterm=none term=none
-hi CursorColumn                  guibg=#272822
 hi ColorColumn                   guibg=#272822
-hi LineNr          guifg=#88846F guibg=#272822
 hi NonText         guifg=#465457
 hi SpecialKey      guifg=#465457
 
