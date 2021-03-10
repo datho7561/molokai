@@ -83,7 +83,7 @@ hi Special         guifg=#66D9EF guibg=bg      gui=italic
 " Many terminals don't yet support coloured undercurl,
 " so use cterm to set up background highlight
 if has("spell")
-    hi SpellBad    ctermbg=1 ctermfg=0 guisp=#FF0000 gui=undercurl
+    hi SpellBad    ctermbg=1 ctermfg=7 guisp=#FF0000 gui=undercurl
     hi SpellCap    ctermfg=0 guisp=#7070F0 gui=undercurl
     hi SpellLocal  guisp=#70F0F0 gui=undercurl
     hi SpellRare   guisp=#FFFFFF gui=undercurl
